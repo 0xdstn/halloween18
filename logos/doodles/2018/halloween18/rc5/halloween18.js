@@ -10638,7 +10638,7 @@ function replaceConfig(e,key,val) {
         Hm(b, a);
         b = gg(a);
         b = Lf(b, !0);
-        a = Cb("http://192.168.0.166");
+        a = Cb(window.location.href);
         a.j.set("doodle", "73509581_" + b);
         return a.toString()
     };
