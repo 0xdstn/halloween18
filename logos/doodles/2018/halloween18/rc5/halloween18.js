@@ -1173,7 +1173,7 @@ function replaceConfig(e,key,val) {
         Rb = 0 <= Kb.indexOf("MSIE");
     Rb && Kb.indexOf("MSIE 8.");
     bb(Kb, "GT-I9300") && bb(Kb, "Chrome");
-    var Sb = bb(Lb, "/logos/") && bb(Lb, ".html"),
+    var Sb = bb(Lb, "logos/") && bb(Lb, ".html"),
         Tb = function() {
             return !!document.getElementById("fkbx") && !E
         },
@@ -1194,7 +1194,7 @@ function replaceConfig(e,key,val) {
         },
         Yb = function(a) {
             var b = [Xb];
-            window.WebFontConfig ? null != a && Ea(a) && a() : (La("WebFontConfig.google.families", b), null != a && Ea(a) && La("WebFontConfig.fontactive", a), a = document.createElement("script"), a.src = "/logos/doodles/2018/halloween18/rc5/webfont.js", a.type = "text/javascript", a.async = "true", (document.getElementById("xjsc") || document.body).appendChild(a))
+            window.WebFontConfig ? null != a && Ea(a) && a() : (La("WebFontConfig.google.families", b), null != a && Ea(a) && La("WebFontConfig.fontactive", a), a = document.createElement("script"), a.src = "logos/doodles/2018/halloween18/rc5/webfont.js", a.type = "text/javascript", a.async = "true", (document.getElementById("xjsc") || document.body).appendChild(a))
         },
         Zb = ["Moz", "ms", "O", "webkit"],
         $b = function(a, b, c) {
@@ -2209,12 +2209,12 @@ function replaceConfig(e,key,val) {
     };
     z($d, Yd);
     var le = {
-            nc: new ke("/logos/2018/halloween18/rc5/", "sfx"),
-            Ad: new ke("/logos/2018/halloween18/rc5/", "tutorial"),
-            yd: new ke("/logos/2018/halloween18/rc5/", "lobby"),
-            Pd: new ke("/logos/2018/halloween18/rc5/", "outside"),
-            xd: new ke("/logos/2018/halloween18/rc5/", "hurry_up"),
-            Uc: new ke("/logos/2018/halloween18/rc5/", "postgame")
+            nc: new ke("logos/2018/halloween18/rc5/", "sfx"),
+            Ad: new ke("logos/2018/halloween18/rc5/", "tutorial"),
+            yd: new ke("logos/2018/halloween18/rc5/", "lobby"),
+            Pd: new ke("logos/2018/halloween18/rc5/", "outside"),
+            xd: new ke("logos/2018/halloween18/rc5/", "hurry_up"),
+            Uc: new ke("logos/2018/halloween18/rc5/", "postgame")
         },
         me = {
             Ge: new fe(le.nc, 0, 1541.156),
@@ -2316,7 +2316,7 @@ function replaceConfig(e,key,val) {
         b.restore()
     };
     var Ee = function() {
-        ze.call(this, "/logos/2018/halloween18/rc5/", De)
+        ze.call(this, "logos/2018/halloween18/rc5/", De)
     };
     z(Ee, ze);
     var De = [{
@@ -10171,7 +10171,7 @@ function replaceConfig(e,key,val) {
     };
     var Ae = Ee.Aa(),
         Mn = function(a) {
-            return ("/logos/2018/halloween18/rc5/" + a).toLowerCase()
+            return ("logos/2018/halloween18/rc5/" + a).toLowerCase()
         },
         Nn = null,
         On = function() {
